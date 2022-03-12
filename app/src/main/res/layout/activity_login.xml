@@ -4,6 +4,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
+    android:background="#87ceeb"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="196dp"
+        android:layout_height="206dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="72dp"
+        android:src="@drawable/logo"
+        android:transitionName="logo_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="283dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="68dp"
+        android:background="#FFC107"
+        android:text="Login"
+        android:textColor="#fff"
+        android:transitionName="button_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="335dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="48dp"
+        android:background="#00000000"
+        android:elevation="0dp"
+        android:text="Don't Have an Account? SignUp"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:transitionName="signup_tran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="292dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#F6F0F0"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="#676565"
+        app:counterEnabled="true"
+        app:counterMaxLength="15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:passwordToggleEnabled="true" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="293dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#CFC8C8"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="#757373"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="68dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
