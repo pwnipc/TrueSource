@@ -13,6 +13,9 @@
             android:name=".ProfileUpdateActivity"
             android:exported="false" />
         <activity
+            android:name=".SignupActivity"
+            android:exported="false" />
+        <activity
             android:name=".ReadActivity"
             android:exported="false" />
         <activity
