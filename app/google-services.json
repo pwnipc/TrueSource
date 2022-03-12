@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "950580543330",
+    "project_id": "truesource-ec9a5",
+    "storage_bucket": "truesource-ec9a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950580543330:android:9d306fd48003a8f3e0363b",
+        "android_client_info": {
+          "package_name": "com.turing.truesource"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950580543330-4o7n4ppqfv91brnpk46j5iomip3dcvnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJXFQ3R6-AgRH_8JqTAkr8gQ5k0qw--UU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950580543330-4o7n4ppqfv91brnpk46j5iomip3dcvnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
